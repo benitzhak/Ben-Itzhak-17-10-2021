@@ -1,0 +1,10 @@
+
+.main-app{
+    background-image: linear-gradient(#7DEDFF, #96BAFF);
+    color: white;
+    text-shadow: 1px 2px 3px #666;
+}
+
+.main-app.dark{
+    background-image: linear-gradient(#4b4b4b, #0f0f0f) ;
+}

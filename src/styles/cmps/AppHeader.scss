@@ -1,0 +1,16 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.3rem;
+        margin-right: 1rem;
+    }
+    .actions{
+        display: flex;
+        align-items: center;
+    }
+}

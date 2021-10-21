@@ -1,0 +1,48 @@
+
+.home-page{
+    height: 100vh;
+    .home-daily-weather-head{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem ;
+    }
+    .home-daily-weather-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-img{
+        width: 20%;
+        padding: 3rem 0;
+        animation: slide-bck-top 0.45s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    }
+    .home-curr-weather-txt{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .home-curr-city-name{
+        font-size: 1rem;
+    }
+    .home-curr-city-temp{
+        font-size: 2rem;
+    }
+}
+
+.loading{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+  @keyframes slide-bck-top {
+    0% {
+        transform: translateZ(-400px) translateY(-200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateZ(0) translateY(0);
+    }
+  }
+

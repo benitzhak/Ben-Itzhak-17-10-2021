@@ -1,0 +1,21 @@
+
+.app-filter{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 1rem 0;
+    input{
+        outline: none;
+        padding: 0.5rem;
+        width: 20rem;
+        margin: 1rem 0;
+        border-radius: 1rem;
+        border: none;
+        box-shadow: -1px 0px 4px 1px rgba(0, 0, 0, 0.363);
+    }
+    .search-icon{
+        position: absolute;
+        top: 1.2rem;
+    }
+}
+
